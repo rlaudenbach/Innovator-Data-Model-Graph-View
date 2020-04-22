@@ -54,10 +54,18 @@
    </Item>
    <Item type="qry_QueryItem" id="FDED9D16223A42BB8C4602BA973F47FB" action="add">
     <filter_xml><![CDATA[<condition>
-	<ne>
-		<property name="related_id" />
-		<property name="source_id" />
-	</ne>
+	<or>
+		<ne>
+			<property name="related_id" />
+			<property name="source_id" />
+		</ne>
+		<eq>
+			<count>
+				<query_reference_path>C2CACDC659724A14B418E1F711255F5D</query_reference_path>
+			</count>
+			<constant>0</constant>
+		</eq>
+	</or>
 </condition>]]></filter_xml>
     <item_type keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</item_type>
     <ref_id>58D4C04AAEBA40798A6AA77DBB7E0000</ref_id>
