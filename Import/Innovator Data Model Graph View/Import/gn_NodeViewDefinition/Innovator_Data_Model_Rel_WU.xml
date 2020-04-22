@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_NodeViewDefinition" id="DD7C7C71AF5C424FA3A2A965438CDDA4" action="add">
+  <name>Innovator_Data_Model_Rel_WU</name>
+  <Relationships>
+   <Item type="gn_NodeViewTemplate" id="F513271DE7C14A1E96AB970B779AB2EC" action="add">
+    <related_id keyed_name="RelationshipType_Innovator_Data_Model_WU" type="gn_ViewCard">887E275CEAA241F0B78325F79647DEA6</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Rel_WU" type="gn_NodeViewDefinition">DD7C7C71AF5C424FA3A2A965438CDDA4</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

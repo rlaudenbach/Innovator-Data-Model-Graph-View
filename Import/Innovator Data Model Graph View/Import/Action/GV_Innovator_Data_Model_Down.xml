@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="5FB125CADC704BB0BF0C74FEEADF48C4" action="add">
+  <item_query />
+  <label xml:lang="en">Show Related Item Types Data Model</label>
+  <location>client</location>
+  <method keyed_name="GV_Innovator_Data_Model_Down" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>GV_Innovator_Data_Model_Down</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>GV_Innovator_Data_Model_Down</name>
+ </Item>
+</AML>

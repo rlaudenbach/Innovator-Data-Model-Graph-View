@@ -1,0 +1,234 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="0578E91DE16F4CD1A78092593035115E" action="add">
+  <template_definition>{
+	"container": {
+		"type": "grid",
+		"style": {
+			"width": 280,
+			"height": 80,
+			"color": "#ffe6cc",
+			"padding": 10,
+			"rows": [
+				{
+					"height": 12
+				},
+				{
+					"height": 5
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				}
+			],
+			"cols": [
+				{
+					"width": 80
+				},
+				{
+					"width": 12
+				},
+				{
+					"width": 160
+				}
+			],
+			"border": {
+				"width": 2,
+				"color": "#ffc180",
+				"cornerRadius": 2,
+				"shadow": {
+					"horizontal": 1,
+					"vertical": 2,
+					"color": "#000000",
+					"opacity": 0.4
+				}
+			},
+			"cells": [
+				{
+					"content": "text",
+					"content_binding": "type",
+					"col": 0,
+					"row": 0,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "image",
+					"content_binding": "icon",
+					"col": 1,
+					"row": 0
+				},
+				{
+					"content": "text",
+					"content_binding": "name",
+					"col": 2,
+					"row": 0,
+					"style": {
+						"font": {
+							"size": 10,
+							"family": "Tahoma",
+							"weight": "bold",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_dash_cell",
+					"col": 0,
+					"row": 1,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "2_dash_cell",
+					"col": 2,
+					"row": 1,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_label",
+					"col": 0,
+					"row": 2,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "label",
+					"col": 2,
+					"row": 2,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_behavior",
+					"col": 0,
+					"row": 3,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "behavior",
+					"col": 2,
+					"row": 3,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_hide_in_all",
+					"col": 0,
+					"row": 4,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "hide_in_all",
+					"col": 2,
+					"row": 4,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_grid_view",
+					"col": 0,
+					"row": 5,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "grid_view",
+					"col": 2,
+					"row": 5,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				}
+			]
+		}
+	}
+}</template_definition>
+  <name>RelationshipType_Innovator_Data_Model</name>
+ </Item>
+</AML>

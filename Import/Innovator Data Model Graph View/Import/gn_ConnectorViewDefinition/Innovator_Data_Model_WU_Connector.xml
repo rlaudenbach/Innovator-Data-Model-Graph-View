@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_ConnectorViewDefinition" id="F4079103A3A64E3A8E153BA22666B8E9" action="add">
+  <name>Innovator_Data_Model_WU_Connector</name>
+  <Relationships>
+   <Item type="gn_ConnectorViewTemplate" id="CDFE55D63F79402B8839552B0D1AA1C0" action="add">
+    <related_id keyed_name="Innovator_Data_Model_WU_Connector" type="gn_ViewCard">4A4CFB293914476E8262021A2CBE074E</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_WU_Connector" type="gn_ConnectorViewDefinition">F4079103A3A64E3A8E153BA22666B8E9</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

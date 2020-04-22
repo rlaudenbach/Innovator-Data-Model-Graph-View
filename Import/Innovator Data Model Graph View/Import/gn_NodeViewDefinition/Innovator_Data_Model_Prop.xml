@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="gn_NodeViewDefinition" id="D303A01A16E24062A4D361A9D320938A" action="add">
+  <name>Innovator_Data_Model_Prop</name>
+  <Relationships>
+   <Item type="gn_NodeViewTemplate" id="16BB481F619547D08607DBADAA1FC1E4" action="add">
+    <related_id keyed_name="Property_Innovator_Data_Model" type="gn_ViewCard">897055424D2F434A889C327EC4F0916B</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Prop" type="gn_NodeViewDefinition">D303A01A16E24062A4D361A9D320938A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

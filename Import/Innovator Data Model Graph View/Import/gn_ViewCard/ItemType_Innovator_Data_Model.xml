@@ -1,0 +1,226 @@
+﻿<AML>
+ <Item type="gn_ViewCard" id="D139749DDA2243D89EF553A7A932E2BE" action="add">
+  <template_definition>{
+	"container": {
+		"type": "grid",
+		"style": {
+			"width": 280,
+			"height": 80,
+			"color": "#f0f0f0",
+			"padding": 10,
+			"rows": [
+				{
+					"height": 12
+				},
+				{
+					"height": 5
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				},
+				{
+					"height": 10
+				}
+			],
+			"cols": [
+				{
+					"width": 80
+				},
+				{
+					"width": 12
+				},
+				{
+					"width": 160
+				}
+			],
+			"border": {
+				"width": 2,
+				"color": "#666666",
+				"cornerRadius": 2,
+				"shadow": {
+					"horizontal": 1,
+					"vertical": 2,
+					"color": "#000000",
+					"opacity": 0.4
+				}
+			},
+			"cells": [
+				{
+					"content": "image",
+					"content_binding": "open_icon",
+					"col": 0,
+					"row": 0
+				},
+				{
+					"content": "image",
+					"content_binding": "icon",
+					"col": 1,
+					"row": 0
+				},
+				{
+					"content": "text",
+					"content_binding": "name",
+					"col": 2,
+					"row": 0,
+					"style": {
+						"font": {
+							"size": 10,
+							"family": "Tahoma",
+							"weight": "bold",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_dash_cell",
+					"col": 0,
+					"row": 1,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "2_dash_cell",
+					"col": 2,
+					"row": 1,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_label_plural",
+					"col": 0,
+					"row": 2,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "label_plural",
+					"col": 2,
+					"row": 2,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_is_versionable",
+					"col": 0,
+					"row": 3,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "is_versionable",
+					"col": 2,
+					"row": 3,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_is_dependent",
+					"col": 0,
+					"row": 4,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "is_dependent",
+					"col": 2,
+					"row": 4,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "0_implementation_type",
+					"col": 0,
+					"row": 5,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				},
+				{
+					"content": "text",
+					"content_binding": "implementation_type",
+					"col": 2,
+					"row": 5,
+					"style": {
+						"font": {
+							"size": 8,
+							"family": "Tahoma",
+							"weight": "normal",
+							"color": "#777777"
+						}
+					}
+				}
+			]
+		}
+	}
+}</template_definition>
+  <name>ItemType_Innovator_Data_Model</name>
+ </Item>
+</AML>

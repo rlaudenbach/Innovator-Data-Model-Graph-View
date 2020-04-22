@@ -1,0 +1,98 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="AFEC38D18D0143F9B688F7A6A44AE588" action="add">
+  <itemtype_id keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</itemtype_id>
+  <name>RelationshipType_Innovator_Data_Model</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="30BC00B910A043C8A432601A666C4CA6" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="9F4059E99EA343D9B219CFC4BB8524BB" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="2D001673F7FA4FB2B37AE7DCA438B5C8" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="3F862196821A4E11B769AF06204DA563" action="add">
+    <name>behavior</name>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{behavior}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="3FCDD9F9E8C0404291B739AB40D2974B" action="add">
+    <name>label</name>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{label}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="E65424AF9DDB4586A5914E67DB108406" action="add">
+    <name>grid_view</name>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{grid_view}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="EA3D95B28B264A08A215EE06A726EF8F" action="add">
+    <name>0_label</name>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>Tab Label:</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="6C24BAF8294D43AD89F180DCB01E2291" action="add">
+    <name>hide_in_all</name>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{hide_in_all}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="5CBA0676F35D4344A29BB4CA0FB27C55" action="add">
+    <name>0_behavior</name>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>Behavior:</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="339BB887EE1846ADA363D03A00E49F5C" action="add">
+    <name>create_related</name>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>{create_related}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="82C7252E51BC4F0682D6D56E1E8C3873" action="add">
+    <name>0_create_related</name>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>Create Related:</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="DFFC8812007A49AC833A24F79AD0AADD" action="add">
+    <name>0_dash_cell</name>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>--------------------</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="C5727A1EA8CA4331A56B35EE4CD2C44B" action="add">
+    <name>2_dash_cell</name>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>----------------------------------------------------</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="6E177ECB1AC34EFCADBF065618C89E25" action="add">
+    <name>0_grid_view</name>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>Grid View:</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="654818D48AD94DCCB2389A88D7CD6813" action="add">
+    <name>0_hide_in_all</name>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="RelationshipType_Innovator_Data_Model" type="gn_NodeType">AFEC38D18D0143F9B688F7A6A44AE588</source_id>
+    <value_template>Hide in All:</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

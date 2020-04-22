@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="193FA77A39AB453EA7549512EEEA90D2" action="add">
+  <item_query />
+  <label xml:lang="en">Show Surrounding Item Types Data Model</label>
+  <location>client</location>
+  <method keyed_name="GV_Innovator_Data_Model_Surround" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>GV_Innovator_Data_Model_Surround</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>GV_Innovator_Data_Model_Surround</name>
+ </Item>
+</AML>

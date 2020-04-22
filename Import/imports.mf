@@ -1,0 +1,3 @@
+<imports>
+  <package name="Innovator Data Model Graph View" path="Innovator Data Model Graph View\Import" />
+</imports>

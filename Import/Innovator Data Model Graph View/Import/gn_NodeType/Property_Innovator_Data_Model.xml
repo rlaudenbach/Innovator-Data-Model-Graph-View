@@ -1,0 +1,62 @@
+﻿<AML>
+ <Item type="gn_NodeType" id="F31334DEFA2B492BA8B986DC29BD0E54" action="add">
+  <itemtype_id keyed_name="Property" type="ItemType" name="Property">26D7CD4E033242148E2724D3D054B4D3</itemtype_id>
+  <name>Property_Innovator_Data_Model</name>
+  <Relationships>
+   <Item type="gn_NodeTypeProperty" id="A75CDE4882C64049A41ABD963BE1B8B1" action="add">
+    <name>type</name>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>{@type}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="BB6B8CA57C7948A48B12A1FC6A8294DC" action="add">
+    <name>icon</name>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>{@icon}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="8468349F617B493AABAE4725C7CC044B" action="add">
+    <name>name</name>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>{name}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="645FE88911374DF0BD2652035DB85DEC" action="add">
+    <name>behavior</name>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>{behavior}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="D80908D606A34354A7B303FA41D3F8F1" action="add">
+    <name>label</name>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>{label}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="F7A2AE8C61D14F629533AD821E642385" action="add">
+    <name>0_behavior</name>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>Behavior:</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="C54A6FA8171C42D48978A50F617BD3E1" action="add">
+    <name>0_dash_cell</name>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>--------------------</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="EE1BD87377154E098F44DE906F7AD73F" action="add">
+    <name>2_dash_cell</name>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>----------------------------------------------------</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="0B447F9883DC4E23A365CF66D69919F1" action="add">
+    <name>0_label</name>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Property_Innovator_Data_Model" type="gn_NodeType">F31334DEFA2B492BA8B986DC29BD0E54</source_id>
+    <value_template>Label:</value_template>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
