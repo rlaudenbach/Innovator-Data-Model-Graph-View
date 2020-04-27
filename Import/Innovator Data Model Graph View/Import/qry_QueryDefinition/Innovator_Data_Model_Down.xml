@@ -50,6 +50,11 @@
       <sort_order>1024</sort_order>
       <source_id keyed_name="ItemType" type="qry_QueryItem">B4C51A16502C4B76A6CFA51A51F8A5B7</source_id>
      </Item>
+     <Item type="qry_QueryItemSelectProperty" id="39D3BB65C16041A7B3D7205827B64357" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType" type="qry_QueryItem">B4C51A16502C4B76A6CFA51A51F8A5B7</source_id>
+     </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="FDED9D16223A42BB8C4602BA973F47FB" action="add">
@@ -197,6 +202,11 @@
       <sort_order>1024</sort_order>
       <source_id keyed_name="ItemType_2" type="qry_QueryItem">E214B2F0136F49D1A06BF58943DD2632</source_id>
      </Item>
+     <Item type="qry_QueryItemSelectProperty" id="E214639E91164BB8BA79175C38116AA9" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType_2" type="qry_QueryItem">E214B2F0136F49D1A06BF58943DD2632</source_id>
+     </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="7FA7D3444BB5436CA669A5868343E73B" action="add">
@@ -324,6 +334,11 @@
      <Item type="qry_QueryItemSelectProperty" id="3D7EE90904E040BF898CAE4FD8C3EE52" action="add">
       <property_name>label</property_name>
       <sort_order>1024</sort_order>
+      <source_id keyed_name="ItemType_1" type="qry_QueryItem">24C56B7039164A5BA750B43BB2792707</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="0438B825D3484B8889FF2F74DFE2ED6F" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1152</sort_order>
       <source_id keyed_name="ItemType_1" type="qry_QueryItem">24C56B7039164A5BA750B43BB2792707</source_id>
      </Item>
     </Relationships>

@@ -1,25 +1,15 @@
 ﻿<AML>
- <Item type="Method" id="C5DD16E9516F45F08D1DB18D513CF4E2" action="add">
+ <Item type="Method" id="35347EC3D23A473D9CF23C9283789B98" action="add">
   <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
-  <method_code><![CDATA[var isRelship = (this.getProperty("is_relationship","0") == "1");
-
-var graphViewId = '2FCC570AD3334A30BB276809BC60EF3D';
-
-if (isRelship) {
-    aras.AlertError("Selected Item type is a 'Relationship ItemType'. You must run this action from its corresponding 'RelationshipType' !");
-    return;
-}
-if (this.getType() == "RelationshipType") {
-    graphViewId = '9C1B098881BF47C092F19C37EDC12B9A';
-}return ModulesManager.using(
+  <method_code><![CDATA[return ModulesManager.using(
     ['aras.innovator.GraphView/GraphWindowView',
     'aras.innovator.core.ItemWindow/DefaultItemWindowCreator'
     ], function(View, Creator) {
         require(['GraphView/Scripts/GraphDataLoader'], function (GraphDataLoader) {
             inArgs = {
                 // Specify the ID of the GVD to be used
-                gvdId: graphViewId
-                //gvdId: '67ECB5F1F39B470B8A508F3C3F9C4848'
+                //gvdId: '756AFCD42ACE412290AC5D011E452F68'
+                gvdId: '7FF016EAF29649A4B13C4A6B2ACC1D6C'
             };
             var view = new View(inDom, inArgs);
             var creator = new Creator(view);
@@ -28,6 +18,6 @@ if (this.getType() == "RelationshipType") {
         });
     });]]></method_code>
   <method_type>JavaScript</method_type>
-  <name>GV_Innovator_Data_Model_Down</name>
+  <name>ShowGraphView_DataModel</name>
  </Item>
 </AML>

@@ -49,9 +49,15 @@
       <sort_order>1024</sort_order>
       <source_id keyed_name="ItemType" type="qry_QueryItem">E9AC0C796D604D9C8810D3213D696231</source_id>
      </Item>
+     <Item type="qry_QueryItemSelectProperty" id="99C2E1582B934550B77544089FFCD52A" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType" type="qry_QueryItem">E9AC0C796D604D9C8810D3213D696231</source_id>
+     </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="A556A30C36F946C4BC347260CDE1BFEA" action="add">
+    <filter_xml />
     <item_type keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</item_type>
     <ref_id>634E12610BAB47B8A9573EA317DD05C6</ref_id>
     <sort_order>256</sort_order>
@@ -215,6 +221,7 @@
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="A10C2D86F3FB4E04B962B952C004743B" action="add">
+    <filter_xml />
     <item_type keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</item_type>
     <ref_id>C871B498F43049D081734ED3D9471E83</ref_id>
     <sort_order>640</sort_order>
@@ -479,7 +486,7 @@
     <child_ref_id>634E12610BAB47B8A9573EA317DD05C6</child_ref_id>
     <filter_xml><![CDATA[<condition>
 	<eq>
-		<property query_items_xpath="parent::Item" name="id" />
+		<property name="id" query_items_xpath="parent::Item" />
 		<property name="source_id" />
 	</eq>
 </condition>]]></filter_xml>
@@ -518,7 +525,7 @@
     <child_ref_id>C871B498F43049D081734ED3D9471E83</child_ref_id>
     <filter_xml><![CDATA[<condition>
 	<eq>
-		<property query_items_xpath="parent::Item" name="id" />
+		<property name="id" query_items_xpath="parent::Item" />
 		<property name="related_id" />
 	</eq>
 </condition>]]></filter_xml>

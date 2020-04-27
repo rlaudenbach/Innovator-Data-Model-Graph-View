@@ -93,6 +93,18 @@
     <source_id keyed_name="ItemType_Innovator_Data_Model" type="gn_NodeType">B38FAF9DEFA64205BB543D6CFDB58048</source_id>
     <value_template>{label}</value_template>
    </Item>
+   <Item type="gn_NodeTypeProperty" id="37A21DECD3C94B4CB2B76252A7127D02" action="add">
+    <name>is_relationship</name>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="ItemType_Innovator_Data_Model" type="gn_NodeType">B38FAF9DEFA64205BB543D6CFDB58048</source_id>
+    <value_template>{is_relationship}</value_template>
+   </Item>
+   <Item type="gn_NodeTypeProperty" id="2133FADA8A28439CA656F85B863D7115" action="add">
+    <name>0_is_relationship</name>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="ItemType_Innovator_Data_Model" type="gn_NodeType">B38FAF9DEFA64205BB543D6CFDB58048</source_id>
+    <value_template>Is Relationship:</value_template>
+   </Item>
   </Relationships>
  </Item>
 </AML>

@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Action" id="B7FC382606214599A20166B5A7A46A2C" action="add">
+  <item_query />
+  <label xml:lang="en">Show Graph</label>
+  <location>client</location>
+  <method keyed_name="ShowGraphView_DataModel" type="Method">
+   <Item type="Method" action="get" select="id">
+    <name>ShowGraphView_DataModel</name>
+   </Item>
+  </method>
+  <target>none</target>
+  <type>item</type>
+  <name>ShowGraphView_DataModel</name>
+ </Item>
+</AML>

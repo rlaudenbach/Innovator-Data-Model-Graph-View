@@ -4,13 +4,14 @@
 - This solution is targeted for Aras Innovator Administrators only.
 
 ### Pre-requisites
-Aras Innovator Release: 12SP5
+Aras Innovator Releases: 12SP5, 12SP6
 
 
 ### Implementation Details
 - Two new Actions are introduced on Item Type **Item Type**
 - Each starts a different Graph View  based on a different Query Definition
 	- Graph View: **Innovator Data Model Down** will resolve relationships to other Item Types recursively. And it will also resolve all item Property to their target Item Types.
+	  Cannot be started on ItemTypes flagged as "is_relationship" (warning will pop up). In this case this action can be started on the correpsonding "RealtionshipType"
 	- Graph View: **Innovator Data Model Surround** (360°) will resolve relationships to other Item Types one level down and one level up (where used).  And it will also resolve all item Property to their target Item Types and item Properties pointing to this Item Type with their source Item Types.
 
 - From the Graph View the displayed ItemTypes, Relationships, and Item Properties can be opened using right click action **Open Item**.
