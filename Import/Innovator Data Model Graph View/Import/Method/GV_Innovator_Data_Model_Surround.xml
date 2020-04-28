@@ -1,7 +1,8 @@
 ﻿<AML>
  <Item type="Method" id="BFC1F1606ADD47DDB3ED7CA45A377181" action="add">
   <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
-  <method_code><![CDATA[var graphViewId = '2FCC570AD3334A30BB276809BC60EF3D';
+  <method_code><![CDATA[//var graphViewId = '19532D1DC2B845ADA95EE3AA1A7C201A';
+var graphViewId = '6E3072942217484B8302E4FD8CDAA25A';
 
 return ModulesManager.using(
     ['aras.innovator.GraphView/GraphWindowView',

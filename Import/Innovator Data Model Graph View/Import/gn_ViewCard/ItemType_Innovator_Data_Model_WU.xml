@@ -163,7 +163,7 @@
 				},
 				{
 					"content": "text",
-					"content_binding": "0_is_dependent",
+					"content_binding": "0_is_relationship",
 					"col": 0,
 					"row": 4,
 					"style": {
@@ -177,7 +177,7 @@
 				},
 				{
 					"content": "text",
-					"content_binding": "is_dependent",
+					"content_binding": "is_relationship",
 					"col": 2,
 					"row": 4,
 					"style": {

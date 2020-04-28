@@ -477,6 +477,202 @@
      </Item>
     </Relationships>
    </Item>
+   <Item type="qry_QueryItem" id="D94684F53F8544C0A9B825632C7262EC" action="add">
+    <item_type keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</item_type>
+    <ref_id>CCCCC096F45E40F99E5EBF14DFD86542</ref_id>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+    <alias>ItemType_5</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="19C730B9E5AB4053BBAF05C6BBFCC032" action="add">
+      <property_name>name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="F961735AC1474C17862F94D5249EAA6C" action="add">
+      <property_name>label_plural</property_name>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="931A942413234A13B0239EAE65FA501C" action="add">
+      <property_name>label</property_name>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="C95B473A263A44709E781BA76123887F" action="add">
+      <property_name>implementation_type</property_name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="869F45BEDA494DD5A1C01D3F1197B130" action="add">
+      <property_name>is_versionable</property_name>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="AA3F9EC1B96E408185152616CD8238AA" action="add">
+      <property_name>manual_versioning</property_name>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="EDDE47B4664D4AD29C574CEED1B9B443" action="add">
+      <property_name>is_dependent</property_name>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="2FBD07207EEA4D9CBC7E5FFFE683C7BE" action="add">
+      <property_name>open_icon</property_name>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="1183B94A09E5488EAF141D2EA6D1F292" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType_5" type="qry_QueryItem">D94684F53F8544C0A9B825632C7262EC</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="C57B9023DF404EB482EFAFD2C84938E3" action="add">
+    <item_type keyed_name="RelationshipType" type="ItemType" name="RelationshipType">471932C33B604C3099070F4106EE5024</item_type>
+    <ref_id>51B73FF50D1A40E1A18F765F378100EF</ref_id>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+    <alias>RelationshipType relationship_id</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="8597DE2FFD7A44E285EA9F3A0D39207B" action="add">
+      <property_name>name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="RelationshipType relationship_id" type="qry_QueryItem">C57B9023DF404EB482EFAFD2C84938E3</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="15272BDDF3AA46EDBFD2780FBBFE23A8" action="add">
+      <property_name>label</property_name>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="RelationshipType relationship_id" type="qry_QueryItem">C57B9023DF404EB482EFAFD2C84938E3</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="6C69B57F92B94435BACD47A30D29E1B6" action="add">
+      <property_name>behavior</property_name>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="RelationshipType relationship_id" type="qry_QueryItem">C57B9023DF404EB482EFAFD2C84938E3</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="7FC8EFFE5E0E4D6DB34BDF4C6A2E0635" action="add">
+      <property_name>grid_view</property_name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="RelationshipType relationship_id" type="qry_QueryItem">C57B9023DF404EB482EFAFD2C84938E3</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="17A16B534B5B4417A8BFF427FACF155A" action="add">
+      <property_name>hide_in_all</property_name>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="RelationshipType relationship_id" type="qry_QueryItem">C57B9023DF404EB482EFAFD2C84938E3</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="23CC9B0C92DE4845B181A011932CF1C6" action="add">
+    <item_type keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</item_type>
+    <ref_id>742BA81AAABB4749A7EFC8ADD2C135F9</ref_id>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+    <alias>ItemType_6</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="EE5C8C8C6D8E4C5B8768E3305C9CDE1E" action="add">
+      <property_name>name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="ED813FDF40D54D689C0047A860146BED" action="add">
+      <property_name>label_plural</property_name>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="7CE0BC0F29C34E5891A1A2778F35879F" action="add">
+      <property_name>label</property_name>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="12A428BE200F457998B0DFC3C2473007" action="add">
+      <property_name>implementation_type</property_name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="4B0911355EE7465DBAFE7FEC87FA05A8" action="add">
+      <property_name>is_versionable</property_name>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="10BB2391D61E413C8666C2A38162821E" action="add">
+      <property_name>manual_versioning</property_name>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="D3089E2175E34C73B123322677AA3FB2" action="add">
+      <property_name>is_dependent</property_name>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="2EE24872C3584B60884CCC5813837714" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="921EB85F36CA4D4296658502591987E3" action="add">
+      <property_name>open_icon</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType_6" type="qry_QueryItem">23CC9B0C92DE4845B181A011932CF1C6</source_id>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="qry_QueryItem" id="1BC14B0381D148B6B954F72B036201DE" action="add">
+    <item_type keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</item_type>
+    <ref_id>04CEE95C84AE4C3E81C49BD76D9EF3AD</ref_id>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+    <alias>ItemType_7</alias>
+    <Relationships>
+     <Item type="qry_QueryItemSelectProperty" id="8F9524A549D84206944F00E942228581" action="add">
+      <property_name>name</property_name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="E8BA09A758DC48F7B05049D96D30789A" action="add">
+      <property_name>label_plural</property_name>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="32C2EFF765B34F0F93F880DC98976F89" action="add">
+      <property_name>label</property_name>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="29F24F1E6FD84D95B47802E587964C38" action="add">
+      <property_name>implementation_type</property_name>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="32C8DBEF23D14F86BDB1C46B5E2ECD75" action="add">
+      <property_name>is_versionable</property_name>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="CB3FD657FD344DA387C7C3BE045D84AF" action="add">
+      <property_name>manual_versioning</property_name>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="C92930E3F393411E9051D72ADC3A5B82" action="add">
+      <property_name>is_dependent</property_name>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="ED410000411E421E882753A3B1EEBAE3" action="add">
+      <property_name>is_relationship</property_name>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+     <Item type="qry_QueryItemSelectProperty" id="4B1B11DFB84F4089A1522962A76B36A3" action="add">
+      <property_name>open_icon</property_name>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="ItemType_7" type="qry_QueryItem">1BC14B0381D148B6B954F72B036201DE</source_id>
+     </Item>
+    </Relationships>
+   </Item>
    <Item type="qry_QueryReference" id="15EB15E988A04E2392ABEE8ED37E0377" action="add">
     <child_ref_id>CD6A3E45E84944D3A585D6294109E277</child_ref_id>
     <sort_order>128</sort_order>
@@ -584,6 +780,58 @@
     <parent_ref_id>198BFCC12F1F4A08AF97FE3C93158F83</parent_ref_id>
     <ref_id>E68A11F350FC43A9B537E12B604EB4D7</ref_id>
     <sort_order>1152</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="B81C6DD8C4404ACE801437BB30D947A7" action="add">
+    <child_ref_id>CCCCC096F45E40F99E5EBF14DFD86542</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="relationship_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>634E12610BAB47B8A9573EA317DD05C6</parent_ref_id>
+    <ref_id>4420C557ABC24412862C53CA7F327CEA</ref_id>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="047413DAB0214A5FBB1C6523DA5CEB94" action="add">
+    <child_ref_id>51B73FF50D1A40E1A18F765F378100EF</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="id" />
+		<property name="relationship_id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>CD6A3E45E84944D3A585D6294109E277</parent_ref_id>
+    <ref_id>053817967AEC431A9E28D545F2189216</ref_id>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="327DED6BC31449B4B093DBAE8AD97FC7" action="add">
+    <child_ref_id>742BA81AAABB4749A7EFC8ADD2C135F9</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="source_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>51B73FF50D1A40E1A18F765F378100EF</parent_ref_id>
+    <ref_id>1C5B4BBA1C3C42DFBC3DA1E18E39121F</ref_id>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
+   </Item>
+   <Item type="qry_QueryReference" id="ECD6668A909B4C50806CE4DC784EA835" action="add">
+    <child_ref_id>04CEE95C84AE4C3E81C49BD76D9EF3AD</child_ref_id>
+    <filter_xml><![CDATA[<condition>
+	<eq>
+		<property query_items_xpath="parent::Item" name="relationship_id" />
+		<property name="id" />
+	</eq>
+</condition>]]></filter_xml>
+    <parent_ref_id>C871B498F43049D081734ED3D9471E83</parent_ref_id>
+    <ref_id>9D37DB39B123445CB435F8240A6139CA</ref_id>
+    <sort_order>1664</sort_order>
     <source_id keyed_name="Innovator_Data_Model_Surround" type="qry_QueryDefinition">0D4BC88F9ED44FD1AAFD202D0B1131D5</source_id>
    </Item>
   </Relationships>
