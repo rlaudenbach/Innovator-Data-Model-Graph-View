@@ -1,52 +1,71 @@
-## Adhoc Workflow Voters v1
-### Purpose
-- Alows Administrators to graphically view the data model of an ItemType with all its Relationships, related Items Types and Item Property links.
-- This solution is targeted for Aras Innovator Administrators only.
-
-### Pre-requisites
-Aras Innovator Releases: 12SP5, 12SP6
+# Innovator Data Model Graph View - Installation
 
 
-### Implementation Details
-- Two new Actions are introduced on Item Type **Item Type**
-- Each starts a different Graph View  based on a different Query Definition
-	- Graph View: **Innovator Data Model Down** will resolve relationships to other Item Types recursively. And it will also resolve all item Property to their target Item Types.
-	  Cannot be started on ItemTypes flagged as "is_relationship" (warning will pop up). In this case this action can be started on the correpsonding "RealtionshipType"
-	- Graph View: **Innovator Data Model Surround** (360°) will resolve relationships to other Item Types one level down and one level up (where used).  And it will also resolve all item Property to their target Item Types and item Properties pointing to this Item Type with their source Item Types.
+## History
 
-- From the Graph View the displayed ItemTypes, Relationships, and Item Properties can be opened using right click action **Open Item**.
-- If on an ItemType block, another right click action **Open Graph View** allows to start this GraphView again starting with the selected ItemType.
+Release          | Notes                        | Supported Aras Versions
+-----------------|------------------------------|-------------------
+[v1](add link)   | Initial Release              | 11SP15, 12SP0, 12Sp5, 12SP6, 12SP8
+
+*add link to version location in repository on each row
 
 
-### Improvements
-- Add resolution of LifeCycles and Workflows to show on ItemTypes.
+## Important!
+**Always back up your code tree and database before applying an import package or code tree patch!**
 
-### Installation Steps
 
-1. Back up your database and store the BAK file in a safe place.
+## Pre-requisites
+
+1. Aras Innovator installed (supported version)
+2. Aras Package Import tool 
+3. AML tool like nash or AML-Studio
+4. Import packages of this solution
+
+
+## Install Steps
+
+### Import Packages
+Packages are located in folder "Import" of this solution
+
+1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
-3. Enter your login credentials and click **Login**.
-    * _Note: You must log in as root for the package import to succeed!_
+3. Select relevant database and enter your login credentials for "root" and click **Login**
+
+#### Import Step 1
 4. Enter the package name in the TargetRelease field.
-    * Optional: Enter a description in the Description field.
-5. Enter the path to your local `..\Innovator Data Model Graph View\Import\imports.mf` file in the Manifest File field.
-6. Select **Innovator Data Model Graph View** in the Available for Import field.
+5. Enter the path to the `Import\imports.mf` file into the Manifest File field.
+6. Select all packages in the Available for Import field.
 7. Select Type = **Merge** and Mode = **Thorough Mode**.
-8. Click **Import** in the top-left corner.
+8. Click **Import** in the top left corner.
 9. Close the Aras Package Import tool.
 
-### Usage
-- Log on to Aras as "admin"
-- On TOC go to **Administration/Item Types**
-- Search for **Part**
-- Select **Part** row and right click and start action **Show Related Item Types Data Model**
-- Related Graph View will open in new tab. Close Graph View when done.
-- On Item Types search, search for **Affected Item**
-- Select **Affected Item** row and right click and start action **Show Surrounding Item Types Data Model**
-- Related Graph View will open in new tab. Close Graph View when done.
+#### Import if used with Innovator 11SP15
+Patches for it to run on 11SP15 are located in foldert "Import/Innovator Data Model Graph View - patch for 11SP15 (Methods)" of this soluton
 
-## Credits
+Open Aras Package Import tool again and login as "root"
+
+10. Enter the path to the 'Import\Innovator Data Model Graph View - patch for 11SP15 (Methods)\imports.mf' file into the Manifest File field.
+11. Select all packages in the Available for Import field.
+12. Select Type = **Merge** and Mode = **Thorough Mode**.
+13. Click **Import** in the top left corner.
+14. Close the Aras Package Import tool.
+
+### Post Import Steps
+none 
+
+### Deploy Code Tree Changes
+none
+
+
+## Installation Validation (quick steps)
+1. log on as "admin" 
+2. Go to TOC "Administration/Item Types"  --> search for name = "ItemType"
+3. Pick an ItemType (i.e. Part) --> right click and start action "Show Related ItemTypes Data Model"
+
+
+## Contributing
+For more information on contributing to this Presales Solution, send an email to the owner at "Technical Enablement"
 
 
 ## License
-This project is published under the MIT license. See the [LICENSE file](./LICENSE.md) for license rights and limitations.)
+Aras Presales Solutions are published under the MIT license. See the [LICENSE.md file](./LICENSE.md) for license rights and limitations.
