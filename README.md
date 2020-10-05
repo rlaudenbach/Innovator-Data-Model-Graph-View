@@ -5,7 +5,8 @@
 
 Release          | Notes                        | Supported Aras Versions
 -----------------|------------------------------|-------------------
-[v1](add link)   | Initial Release              | 11SP15, 12SP0, 12Sp5, 12SP6, 12SP8
+[v1](add link)   | Initial Release, up to 12SP9 | 11SP15, 12SP0, 12Sp5, 12SP6, 12SP8
+[v2](add link)   | Upgraded to 12SP9 ++         | 12SP9, 12SP10
 
 *add link to version location in repository on each row
 
@@ -25,7 +26,7 @@ Release          | Notes                        | Supported Aras Versions
 ## Install Steps
 
 ### Import Packages
-Packages are located in folder "Import" of this solution
+Packages are located in folder "Installation\Imports" of this solution
 
 1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
@@ -39,16 +40,6 @@ Packages are located in folder "Import" of this solution
 8. Click **Import** in the top left corner.
 9. Close the Aras Package Import tool.
 
-#### Import if used with Innovator 11SP15
-Patches for it to run on 11SP15 are located in foldert "Import/Innovator Data Model Graph View - patch for 11SP15 (Methods)" of this soluton
-
-Open Aras Package Import tool again and login as "root"
-
-10. Enter the path to the 'Import\Innovator Data Model Graph View - patch for 11SP15 (Methods)\imports.mf' file into the Manifest File field.
-11. Select all packages in the Available for Import field.
-12. Select Type = **Merge** and Mode = **Thorough Mode**.
-13. Click **Import** in the top left corner.
-14. Close the Aras Package Import tool.
 
 ### Post Import Steps
 none 
