@@ -1,0 +1,15 @@
+<AML>
+<!-- add actions to ItemType "ItemType" (must apply as Super User)-->
+      <Item action="edit" type="ItemType" id="450906E86E304F55A34B3C0D65C097EA">
+        <Relationships>
+          <Item action="merge" type="Item Action" typeId="6C280692633D4498BD9CFEA7989138AB" id="95AB62B8156E4872B35F0C8B77688E4A">
+            <related_id keyed_name="GV_Innovator_Data_Model_Down" type="Action">5FB125CADC704BB0BF0C74FEEADF48C4</related_id>
+            <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+          </Item>
+          <Item action="merge" type="Item Action" typeId="6C280692633D4498BD9CFEA7989138AB" id="0DA543DA8B5947DE99F54B39E6AC2357">
+            <related_id keyed_name="GV_Innovator_Data_Model_Surround" type="Action">193FA77A39AB453EA7549512EEEA90D2</related_id>
+            <source_id keyed_name="ItemType" type="ItemType" name="ItemType">450906E86E304F55A34B3C0D65C097EA</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+</AML>
